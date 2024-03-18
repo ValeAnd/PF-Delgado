@@ -137,18 +137,18 @@ header .navbar-brand {
 }
 
 @media (max-width: 430px) {
-  .hero {
+  .heroInicio {
     grid-template-columns: 100%;
     align-items: center;
   }
-  .hero .hero-text {
+  .heroInicio .hero-text {
     width: 90%;
     text-align: center;
   }
-  .hero .hero-text h1 {
-    font-size: 32px;
+  .heroInicio .hero-text h1 {
+    font-size: 40px;
   }
-  .hero .hero-text h2 {
+  .heroInicio .hero-text h2 {
     font-size: 60px;
   }
 }
@@ -475,6 +475,7 @@ header .navbar-brand {
 }
 .contact .hero {
   width: 100%;
+  padding-top: 120px;
   background-color: #EDEEF0;
   display: grid;
   grid-template-columns: 40% 60%;

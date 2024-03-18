@@ -41,21 +41,21 @@
 }
 
 @include media-query-mobile{
-    .hero {
+    .heroInicio {
         grid-template-columns: 100%; 
         align-items: center;
     }
     
-    .hero .hero-text {
+    .heroInicio .hero-text {
         width: 90%; 
         text-align: center;
     }
     
-    .hero .hero-text h1 {
-        font-size: 32px; 
+    .heroInicio .hero-text h1 {
+        font-size: 40px; 
     }
     
-    .hero .hero-text h2 {
+    .heroInicio .hero-text h2 {
         font-size: 60px; 
     }
     
