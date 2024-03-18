@@ -20,33 +20,34 @@
 </head>
 <body>
     <header>
+        <!-- Nav de la pagina -->
         <nav class="navbar navbar-expand-lg navbar-light ">
-            <div class="container-fluid">
+            <div class="container-fluid" style="background: #EDEEF0">
               <a class="navbar-brand navbar-padding" href="#">STYLEHOME</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarScroll">
-                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <div class="navbar-collapse collapse show" id="navbarScroll" style= "background-color: #EDEEF0;text-align: right;padding: 0px 20px">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 600px;">
                     <li class="nav-item">
-                        <a class="nav-link" href="../index.html">Inicio</a>
+                        <a class="nav-link" href="./index.html">Inicio</a>
                     </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Productos
                     </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                      <li><a class="dropdown-item" href="productos.html">Sillones</a></li>
-                      <li><a class="dropdown-item" href="productos.html">Plantas y macetas</a></li>
-                      <li><a class="dropdown-item" href="productos.html">Alfombras</a></li>
-                      <li><a class="dropdown-item" href="productos.html">Menajes</a></li>
+                    <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown" style="background: #EDEEF0; border-radius: 0px ">
+                      <li><a class="dropdown-item" href="./paginas/productos.html">Sillones</a></li>
+                      <li><a class="dropdown-item" href="./paginas/productos.html">Plantas y macetas</a></li>
+                      <li><a class="dropdown-item" href="./paginas/productos.html">Alfombras</a></li>
+                      <li><a class="dropdown-item" href="./paginas/productos.html">Menajes</a></li>
                     </ul>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="contacto.html">Contacto</a>
+                    <a class="nav-link" href="./paginas/contacto.html">Contacto</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="sobreNosotros.html">Sobre nosotros</a>
+                    <a class="nav-link" href="./paginas/sobreNosotros.html">Sobre nosotros</a>
                   </li>
                 </ul>
             
@@ -65,6 +66,7 @@
                     <p>Suscribete para que puedas obtener 20% de descuento en tu primera ompra mas el envio gratis a cualquier parte del mundo</p>   
                 </div>
             </section>
+            <!-- Seccion suscribirse -->
             <section class="suscribete">
                 <h2>Suscribete</h2>
                 <form action="">
@@ -91,7 +93,7 @@
                 </form>
                 <button type="submit" class="button-contact">Enviar</button>
             </section>
-            
+            <!-- Seccion informacion sobre ubicacion, email y telefono de la empresa -->
             <section class="informacion">
                 <h3>Encuentranos</h3>
                 <div class="container-informacion">
@@ -108,10 +110,12 @@
                         <p>Surco Calle Pinos #45</p>
                     </div>
                 </div>
+                <!-- Iframe que indica la ubicacion de la empresa -->
                 <iframe  class="informacion-ubicacion" src="https://www.google.com/maps/d/embed?mid=1dIvoW5-Ut0i2Ok4_CYiVou2quow&hl=en_US&ehbc=2E312F" width="640" height="480"></iframe>  
             </section>
         </section>
     </main>
+    <!-- Footer de la pagina -->
     <footer>
         <section id="footer">
             <div class="footer-nav">
@@ -120,9 +124,9 @@
                     <li><a href="#">Preguntas frecuentes</a></li>
                     <li><a href="#">Politicas de envio</a></li>
                     <li><a href="#">Politicas de envios y devoluciones</a></li>
-                    <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram fa-2xl"></i></a>
-                    <li><a href="https://web.facebook.com/?_rdc=1&_rdr"><i class="fa-brands fa-square-facebook fa-2xl"></i></a></li>
-                    <li><a href="https://twitter.com/?lang=es"><i class="fa-brands fa-square-twitter fa-2xl"></i></a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+                    <li><a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank"><i class="fa-brands fa-square-facebook fa-2xl"></i></a></li>
+                    <li><a href="https://twitter.com/?lang=es" target="_blank"><i class="fa-brands fa-square-twitter fa-2xl"></i></a></li>
                 </ul>
             </div>
             <div class="footer-texts">
@@ -135,7 +139,7 @@
                 <p>© 2024 por STYLEHOME - Todos los derechos reservados</p>
             </div>
         </section>
-    </footer>
+    </footer> 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
